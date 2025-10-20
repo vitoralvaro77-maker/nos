@@ -1,0 +1,66 @@
+inddx.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformações & Resultados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 30px;
+            text-align: center;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .image-gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transformações & Conquistas</h1>
+        <p>Resultados incríveis de dedicação e foco</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Galeria de Resultados</h2>
+            <div class="image-gallery">
+                <img src="8d750730-a328-44ae-8d11-10517e0afdc5.jpeg" alt="Bodybuilding trophy winner">
+                <img src="651be4ed-7490-4805-b173-b37020025595.jpeg" alt="Transformação feminina antes e depois">
+                <img src="8c8adf7d-9b30-4a8b-b56c-db7f790248a4.jpeg" alt="Transformação masculina antes e depois">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 - Todos os direitos reservados
+    </footer>
+</body>
+</html>
